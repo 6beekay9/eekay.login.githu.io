@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+}
+
+#info-reset{
+    font-size: small;
+}
+
+.email{
+    border-radius: 20px;
+    height: 25px;
+    width: 250px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.815);
+}
+
+.reset-btn{
+    background-color: rgba(126, 173, 88, 0.808);
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.815);
+}

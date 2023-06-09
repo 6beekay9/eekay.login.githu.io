@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>SignUP - FastFood</title>
+</head>
+<body>
+    <h1 style="text-decoration: underline;">SignUp- FastFood</h1>
+    <p class="log-req">Already have an account? LogIn <a href="index.html">Here</a></p>
+    <div id="video-background">
+        <video autoplay loop muted>
+            <source src="images resourses\bgMp4(2).mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="sign-up" class="sign-up">
+        <form action="/signup" method="post" class="sign-up">
+            <label>Name : </label>
+            <input type="text" required class="Name"><br><br>
+            
+            <label>Email : </label>
+            <input type="text" class="Email" id="Email" name="Email" required >
+            <br><br>
+            <label>Create Password</label>
+            <input type="password" required class="cr-password" id="cr-password"> <br>
+            <input class="show-pass" type="checkbox" id="showPasswordCheckbox" onchange="togglePasswordVisibility()">Show Password
+            <br><br>
+            <input type="button" value="SignUp" class="signup-btn">
+        </form>
+    </div>
+
+    <div >
+        <ul id="other-log-medium">
+            <li><a href="#">Google</a>
+                <img src="images resourses\google.png" alt=""><br>
+            </li><br>
+            <li><a href="#">Facebook</a>
+                <img src="images resourses\fb.png" alt="">
+            </li><br>
+            <li><a href="#">GitHub</a>
+                <img src="images resourses\Github.png" alt="">
+            </li>
+        </ul>
+    </div>
+
+   <script src="registration.js"></script>
+</body>
+</html>

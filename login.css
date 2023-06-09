@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;300&family=Roboto+Condensed&family=Rubik+Pixels&display=swap');
+
+#password-toggle {
+    height: 20px;
+    width: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login-button {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.regis-req {
+    flex-direction: row;
+    padding-left: 5px;
+    color: white;
+    height: 80px;
+    margin: 70px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background-size: cover;
+    opacity: 80%;
+}
+
+#video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.res-Pass {
+    text-decoration: none;
+    
+}
+
+.res-Pass:hover {
+    text-decoration: underline;
+    text-shadow: 1px 2px 5px rgb(255, 255, 255);
+}
+
+.reg-req {
+    text-decoration: none;
+    color: rgb(134, 134, 245);
+    
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.815);
+    
+   
+}
+
+.reg-req:hover {
+    text-decoration: underline;
+}
+
+.show-pass {
+    display: flex;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.815);
+    
+}
+
+.log-btn {
+    background-color: rgba(126, 173, 88, 0.808);
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.815);
+}
+
+.email {
+    border-radius: 20px;
+    height: 25px;
+    width: 250px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.815);
+
+}
+
+.password {
+    border-radius: 20px;
+    height: 25px;
+    width: 250px;
+    font-size: medium;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.815);
+}
+
+ul{
+    background-color: aliceblue;
+    display: inline-block;
+    flex-direction: column;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li img{
+    height: auto;
+    width: 20px;
+}
+
+li{
+    list-style-type: none;
+}
